@@ -9,3 +9,5 @@ static_method_demo s = new static_method_demo ();
 	public static void M1() {
 		System.out.println("Hello...I'm Static method...");
 	}
+public void M2() {
+	
