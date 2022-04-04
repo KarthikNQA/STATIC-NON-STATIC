@@ -3,3 +3,9 @@ public class static_method_demo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 M1();
+static_method_demo s = new static_method_demo ();
+                         s.M2();
+	}
+	public static void M1() {
+		System.out.println("Hello...I'm Static method...");
+	}
