@@ -3,7 +3,7 @@ package com.java;
 public class static_method_demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		M1();
 		static_method_demo s = new static_method_demo();
 		s.M2();
@@ -13,4 +13,6 @@ public class static_method_demo {
 		System.out.println("Hello...I'm Static method...");
 	}
 
-	
+	public static void M2() {
+	        System.out.println("Hello...I'm NON STATIC method...");
+	}	
